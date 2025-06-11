@@ -36,7 +36,7 @@ Our implementation is based on [enformer-pytorch](https://github.com/lucidrains/
 
 ## Citation
 
-This code is extracted and organized from our recent project: [https://arxiv.org/abs/2506.01833](https://arxiv.org/abs/2506.01833).
+This code is extracted and organized from our recent project **SPACE** ([arXiv:2506.01833](https://arxiv.org/abs/2506.01833)). For the complete implementation, please visit our main repository: [https://github.com/ZhuJiwei111/space](https://github.com/ZhuJiwei111/space).
 
 If you find the code in this repository useful, we would be very grateful if you could consider citing our paper:
 
