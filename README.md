@@ -15,6 +15,8 @@ To demonstrate minimal modifications to the original HF Trainer, the provided co
 
 We utilize the dataset from [Basenji](https://console.cloud.google.com/storage/browser/basenji_barnyard), which is originally in TensorFlow data format and requires users to pay for download costs. We have converted the data to H5 format and made it freely available for download on 🤗 **Hugging Face**: [https://huggingface.co/datasets/yangyz1230/space](https://huggingface.co/datasets/yangyz1230/space).
 
+Please note that the H5 format is compressed but not suitable for parallel DataLoader access. We recommend converting the H5 data to NumPy `.npy` format for better performance. We have implemented both H5 and NPY dataset classes in the `dataloaders/` directory. While our training scripts use the NPY format dataset by default, you can easily switch to the H5 dataset implementation if needed.
+
 ## Training Scripts
 
 **Enformer training:**

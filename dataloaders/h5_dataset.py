@@ -1,4 +1,3 @@
-import torch
 from torch.utils.data import Dataset
 import h5py
 import numpy as np
@@ -55,9 +54,6 @@ class GEPH5Dataset(Dataset):
         return len(self.targets)
 
     def __getitem__(self, idx):
-        # sequence = self.sequences[idx]
-        # # bool -> float32
-        # sequence = sequence.astype(np.float32)
         target = self.targets[idx]
         row = self.bed_file.iloc[idx]
         chrom, start, end = row['chrom'], row['start'], row['end']
@@ -79,8 +75,6 @@ class GEPH5Dataset(Dataset):
         return {
             'x': onehot,
             'labels': target,
-            # "head": "human",
-            # "target_length": 896,
         }
     
     def close(self):
