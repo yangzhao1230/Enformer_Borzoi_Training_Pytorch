@@ -32,10 +32,6 @@ bash train_borzoi.sh
 
 Our implementation is based on [enformer-pytorch](https://github.com/lucidrains/enformer-pytorch) and [borzoi-pytorch](https://github.com/johahi/borzoi-pytorch). We thank the authors for their excellent work.
 
-## Acknowledgements
-
-Our implementation is based on [enformer-pytorch](https://github.com/lucidrains/enformer-pytorch) and [borzoi-pytorch](https://github.com/johahi/borzoi-pytorch). We thank the authors for their excellent work.
-
 ## Citation
 
 This code is extracted and organized from our recent project **SPACE** ([arXiv:2506.01833](https://arxiv.org/abs/2506.01833)). For the complete implementation, please visit our main repository: [https://github.com/ZhuJiwei111/space](https://github.com/ZhuJiwei111/space).
