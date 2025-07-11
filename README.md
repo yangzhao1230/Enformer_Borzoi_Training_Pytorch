@@ -39,13 +39,11 @@ This code is extracted and organized from our recent project **SPACE** ([arXiv:2
 If you find the code in this repository useful, we would be very grateful if you could consider citing our paper:
 
 ```bibtex
-@misc{yang2025spacegenomicprofilepredictor,
-     title={SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model}, 
-     author={Zhao Yang and Jiwei Zhu and Bing Su},
-     year={2025},
-     eprint={2506.01833},
-     archivePrefix={arXiv},
-     primaryClass={cs.LG},
-     url={https://arxiv.org/abs/2506.01833}, 
+@inproceedings{yang2025space,
+      title={{SPACE}: Your Genomic Profile Predictor is a Powerful {DNA} Foundation Model},
+      author={Zhao Yang and Jiwei Zhu and Bing Su},
+      booktitle={Forty-second International Conference on Machine Learning},
+      year={2025},
+      url={https://openreview.net/forum?id=o4L9y4Jetm}
 }
 ```
